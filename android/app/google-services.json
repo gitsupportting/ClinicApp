@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "642265330697",
+    "firebase_url": "https://happy-teeth-dental.firebaseio.com",
+    "project_id": "happy-teeth-dental",
+    "storage_bucket": "happy-teeth-dental.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642265330697:android:e057824f897f2fb73bb4d8",
+        "android_client_info": {
+          "package_name": "com.foursmiledental.happyteethdental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642265330697-fk8muss10q22hf65rf53gcg8brvfnb11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzcdDSom7XBTtiRj-PrLGF163YTE2Q6Cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642265330697-fk8muss10q22hf65rf53gcg8brvfnb11.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "642265330697-js6nce25dve1lcb3hjhn6av96dvf1pfk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.4smile.happyteethdental"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
