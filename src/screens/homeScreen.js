@@ -59,7 +59,7 @@ export default class HomeScreen extends React.Component {
           <ImageBackground style={ styles.imgBackground } 
               resizeMode='cover' 
               source={require('../assets/images/home1.png')}>
-            <TouchableOpacity onPress={this.onDetail} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
+            <TouchableOpacity onPress={()=>this.props.navigation.navigate('Forms')} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
               <Text style={[s.ft20BoldWhite]}>{data.item}</Text>
             </TouchableOpacity>
           </ImageBackground>     
@@ -68,7 +68,7 @@ export default class HomeScreen extends React.Component {
           <ImageBackground style={ styles.imgBackground } 
               resizeMode='cover' 
               source={require('../assets/images/home2.png')}>
-            <TouchableOpacity onPress={this.onDetail} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
+            <TouchableOpacity onPress={()=>this.props.navigation.navigate('Tips')} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
               <Text style={[s.ft20BoldWhite]}>{data.item}</Text>
             </TouchableOpacity>
           </ImageBackground>     
@@ -77,7 +77,7 @@ export default class HomeScreen extends React.Component {
           <ImageBackground style={ styles.imgBackground } 
               resizeMode='cover' 
               source={require('../assets/images/home3.png')}>
-            <TouchableOpacity onPress={this.onDetail} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
+            <TouchableOpacity onPress={()=>this.props.navigation.navigate('Articles')} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
               <Text style={[s.ft20BoldWhite]}>{data.item}</Text>
             </TouchableOpacity>
           </ImageBackground>     
@@ -86,7 +86,7 @@ export default class HomeScreen extends React.Component {
           <ImageBackground style={ styles.imgBackground } 
               resizeMode='cover' 
               source={require('../assets/images/home4.png')}>
-            <TouchableOpacity onPress={this.onDetail} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
+            <TouchableOpacity onPress={()=>this.props.navigation.navigate('Specials')} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
               <Text style={[s.ft20BoldWhite]}>{data.item}</Text>
             </TouchableOpacity>
           </ImageBackground>     
@@ -95,7 +95,7 @@ export default class HomeScreen extends React.Component {
           <ImageBackground style={ styles.imgBackground } 
               resizeMode='cover' 
               source={require('../assets/images/home5.png')}>
-            <TouchableOpacity onPress={this.onDetail} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
+            <TouchableOpacity onPress={()=>this.props.navigation.navigate('Contact')} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
               <Text style={[s.ft20BoldWhite]}>{data.item}</Text>
             </TouchableOpacity>
           </ImageBackground>     
@@ -104,7 +104,7 @@ export default class HomeScreen extends React.Component {
           <ImageBackground style={ styles.imgBackground } 
               resizeMode='cover' 
               source={require('../assets/images/home6.png')}>
-            <TouchableOpacity onPress={this.onDetail} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
+            <TouchableOpacity onPress={()=>this.props.navigation.navigate('Review')} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
               <Text style={[s.ft20BoldWhite]}>{data.item}</Text>
             </TouchableOpacity>
           </ImageBackground>     
@@ -113,7 +113,7 @@ export default class HomeScreen extends React.Component {
           <ImageBackground style={ styles.imgBackground } 
               resizeMode='cover' 
               source={require('../assets/images/home7.png')}>
-            <TouchableOpacity onPress={this.onDetail} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
+            <TouchableOpacity onPress={()=>this.props.navigation.navigate('Kids')} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
               <Text style={[s.ft20BoldWhite]}>{data.item}</Text>
             </TouchableOpacity>
           </ImageBackground>     
@@ -122,7 +122,7 @@ export default class HomeScreen extends React.Component {
           <ImageBackground style={ styles.imgBackground } 
               resizeMode='cover' 
               source={require('../assets/images/home8.png')}>
-            <TouchableOpacity onPress={this.onDetail} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
+            <TouchableOpacity onPress={()=>this.props.navigation.navigate('Finance')} style={{width: '100%', height: '100%', minHeight: deviceWidth*0.4, flexDirection: 'row', alignItems:'center', justifyContent: 'center'}}>
               <Text style={[s.ft20BoldWhite]}>{data.item}</Text>
             </TouchableOpacity>
           </ImageBackground>     

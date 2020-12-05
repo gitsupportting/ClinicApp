@@ -19,7 +19,15 @@ import formHealthScreen from './screens/formHealthScreen';
 import formInsuranceScreen from './screens/formInsuranceScreen';
 import formPatientScreen from './screens/formPatientScreen';
 import formReferralScreen from './screens/formReferralScreen';
-import formSpouseScreen from './screens/formSpouseScreen'; 
+import formSpouseScreen from './screens/formSpouseScreen';
+import formsScreen from './screens/formsScreen';
+import tipsScreen from './screens/tipsScreen';
+import articlesScreen from './screens/articlesScreen';
+import specialsScreen from './screens/specialsScreen';
+import contactScreen from './screens/contactScreen';
+import reviewScreen from './screens/reviewScreen';
+import kidsScreen from './screens/kidsScreen';
+import financeScreen from './screens/financeScreen'; 
 
 
 const Navigation = createStackNavigator({
@@ -88,10 +96,33 @@ const Navigation = createStackNavigator({
   },
   FormConsent: {
     screen: formConsentScreen
-  }
+  },
+  Forms: {
+    screen: formsScreen
+  },
+  Tips: {
+    screen: tipsScreen
+  },
+  Articles: {
+    screen: articlesScreen
+  },
+  Specials: {
+    screen: specialsScreen
+  },
+  Contact: {
+    screen: contactScreen
+  },
+  Review: {
+    screen: reviewScreen
+  },
+  Kids: {
+    screen: kidsScreen
+  },
+  Finance: {
+    screen: financeScreen
+  },
 }, {
-  // initialRouteName: 'Splash',
-  initialRouteName: 'Home',
+  initialRouteName: 'Splash',
   headerMode: 'none'
 });
 
